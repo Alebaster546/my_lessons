@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.svoystvaheader {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15%;
+    border: 7px solid red;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(153, 255, 127);
+}
+
+.blockmenu {
+    width: 10%;
+    height: 600px;
+    position: fixed;
+    background: rgba(0, 170, 238, 0.9);
+    margin-top: 20px;
+}
+
+.sylka1 {
+    color: cadetblue;
+    background: rgba(0, 150, 200, 0.8);
+    font-size: 25px;
+    padding: 55px;
+}
+
+.blocktext {
+    width: 70%;
+    height: 600px;
+    margin-top: 20px;
+    background-color: aqua;
+    margin-left: 20%;
+}
+
+.text {
+    font-size: 60px;
+}
+
+.futer {
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: cadetblue;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 400px;
+}
+
+.dannye {
+    font-size: 30 px;
+}

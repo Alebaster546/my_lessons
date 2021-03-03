@@ -1,0 +1,76 @@
+.block1{
+    width: 45%;
+    height: 45%;
+    border:20px solid blue;
+    float: left;
+}
+.block2{
+    width: 45%;
+    height: 45%;
+    border:20px solid blue;
+    float: right;
+}
+
+.megablock{
+    width: 89%;
+    height: 100%;
+    border: 100px solid green;
+    float: left;
+margin-top: 20px;
+}
+.lblock1{
+    margin-top: 30px;
+    width: 15%;
+    height: 15%;
+    border:145px solid rgb(0, 174, 255);
+    float: left
+    
+}
+.lblock2{
+    margin-top: 30px;
+    width: 15%;
+    height: 15%;
+    border:145px solid rgb(81, 197, 172);
+    float: left;
+    margin-left: 4%;
+}
+.lblock3{
+    margin-top: 30px;
+    width: 15%;
+    height: 15%;
+    border:145px solid rgb(93, 81, 197);
+    float: right;
+    
+}
+ 
+.sblock1{
+    margin-top:50px;
+    width: 10%;
+    height: 15%;
+    border:110px solid rgb(255, 0, 179);
+    float: left
+}
+.sblock2{
+    margin-top:50px;
+    width: 10%;
+    height: 15;
+    border:110px solid rgb(255, 0, 179);
+    float: left;
+    margin-left: 4%;
+}
+.sblock3{
+    margin-top:50px;
+    width: 10%;
+    height: 15%;
+    border:110px solid rgb(255, 0, 179);
+    float: left;
+    margin-left: 4%;
+}
+.sblock4{
+    margin-top:50px;
+    width: 10%;
+    height: 15%;
+    border:110px solid rgb(255, 0, 179);
+    float: right;
+    
+}

@@ -1,0 +1,584 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* reset css */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: #f6f9f9;
+}
+
+header .logo_text {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+header .logo {
+    margin-top: 30px;
+}
+
+.container2 {
+    background-image: url('./images/top_background.png');
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+
+.container2 h1 {
+    text-align: center;
+    font-size: 120px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 220px;
+}
+
+.container2 i {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 2px;
+    background: #15a4fa;
+    margin-top: 3vh;
+}
+
+.container2 .descr {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 3vh;
+}
+
+.container2 .btn {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.container2 .btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #15a4fa;
+    padding: 20px 35px;
+    border-radius: 3px;
+
+}
+
+.container2 .btn a:hover {
+    font-size: 20px;
+    background: #15a4fa;
+    border-radius: 5px;
+}
+
+.container3 {
+    width: 1600px;
+    background-color: #f6f9f9;
+    height: 340px;
+    margin-top: -82px;
+    position: relative;
+}
+
+.container3 .tema {
+    text-align: center;
+    font-size: 40px;
+    color: #2d3950;
+    padding-top: 80px;
+
+}
+
+.container3 .simpletext {
+    font-size: 20px;
+    margin-top: 40px;
+    left: 235px;
+    text-align: center;
+    color: #999999;
+}
+
+.container4 {
+    height: 340px;
+    width: 1600px;
+    background-color: #ffffff;
+    margin-top: 65px;
+}
+
+.container4 .telefon {
+    background-image: url(./images/fonicon.png);
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+}
+
+.container4 .telefon1 {
+    margin-top: 25px;
+}
+
+.container4 .telefon1:hover {
+    box-shadow: 3px 3px rgb(165, 157, 157, 0.5)
+}
+
+
+
+.container4 .texticon1 {
+    width: 100%;
+    margin-top: 32px;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.container4 .text2icon1 {
+    margin-top: 22px;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+
+}
+
+/* для block2 */
+.container4 .telegram {
+    margin-top: 25px;
+}
+
+.container4 .telegram:hover {
+    box-shadow: 3px 3px rgb(165, 157, 157, 0.5)
+}
+
+/* для block3 */
+.container4 .dinamic {
+    margin-top: 25px;
+}
+
+.container4 .dinamic:hover {
+    box-shadow: 3px 3px rgb(165, 157, 157, 0.5)
+}
+
+
+.block1 {
+
+    float: left;
+    height: 340px;
+    width: 340px;
+    text-align: center;
+    margin-left: 275px;
+}
+
+.block2 {
+    width: 340px;
+    height: 340px;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.block3 {
+    width: 340px;
+    height: 340px;
+    float: right;
+    margin-right: 260px;
+    text-align: center;
+}
+
+/* фон адресов */
+.container5 {
+    width: 1600px;
+    height: 700px;
+    background-image: url(./images/doroga.png);
+    text-align: center;
+
+}
+
+
+.container5 .nazvanie {
+    text-align: center;
+
+}
+
+.container51 {
+    background-image: url(./images/dorogafon.png);
+    opacity: 0.9;
+    width: 1600px;
+    height: 700px;
+    margin-top: 80px;
+
+}
+
+
+.container5 .nazvanieinfo {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -80px;
+}
+
+.container5 .nazvanietext {
+    font-size: 15px;
+    color: #909191;
+    margin-top: 30px;
+}
+
+.container5 .form {
+    display: block;
+
+}
+
+.container5 .form :hover {
+    color: white;
+
+}
+
+.container5 .textname {
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+    background: inherit;
+    width: 555px;
+    height: 60px;
+    text-align: left;
+    margin-left: 560px;
+    color: white;
+
+}
+
+.container5 .textname:hover {
+    background-color: white;
+    color: black;
+}
+
+.container5 .message {
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+    background: inherit;
+    width: 555px;
+    height: 160px;
+    text-align: left;
+    margin-left: 560px;
+    color: white;
+}
+
+.container5 .message:hover {
+    background-color: white;
+    color: black;
+}
+
+.container5 .knopka {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 555px;
+    height: 60px;
+    margin-left: 560px;
+    font-size: 15px;
+
+
+}
+
+.container5 .leftknopka {
+    display: flex;
+}
+
+.container5 .cubic {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+.container5 .textsubscribe {
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+
+.container5 .rightknopka a {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 143px;
+    height: 48px;
+    background-color: #15a4fa;
+    color: white;
+    text-decoration: none;
+}
+
+.container5 .rightknopka a:hover {
+    font-size: 19px;
+    background: #2d3950;
+    border-radius: 1px;
+    border: 1px solid #15a4fa;
+}
+
+footer {
+    height: 90px;
+    background-color: white;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.footertxt {
+    margin-top: 40px;
+    font-size: 15px;
+    color: #9f9f9f;
+
+}
+
+.mes1 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+
+}
+
+.mes1:hover {
+    background-color: #3b5998;
+}
+
+
+.mes2 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+
+}
+
+.mes2:hover {
+    background-color: #55acee;
+}
+
+
+.mes3 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+
+}
+
+.mes3:hover {
+    background-color: #dd4b39;
+}
+
+
+.mes4 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+
+}
+
+.mes4:hover {
+    background-color: #0976b4;
+}
+
+.in {
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footertxt {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+
+
+.mes1 a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.mes2 a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mes3 a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mes4 a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/linked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

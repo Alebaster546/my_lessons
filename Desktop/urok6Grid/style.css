@@ -1,0 +1,835 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 97%;
+}
+
+.center {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 140px;
+    background-color: #ebecee;
+    max-width: 100%;
+    justify-content: space-between;
+
+}
+
+header .menu ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+header .btn a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 25px 50px;
+    border-radius: 30px;
+}
+
+
+header .logo {
+    display: flex;
+    margin-left: 3.75%;
+    justify-content: left;
+    align-items: center;
+}
+
+header .menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+header .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container2 {
+    background-image: url(./image/baclground.png);
+    height: calc(100vh - 140px);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-color: #ebecee;
+    background-size: contain;
+    max-height: 100%;
+}
+
+.container2 .start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 645px;
+    height: 180px;
+    margin-left: 13.3%;
+    padding-top: 290px;
+}
+
+.container2 .text {
+
+    align-items: flex-start;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    height: 55px;
+    font-size: 60px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.container2 .btn2 {
+    display: flex;
+    align-items: center;
+    max-width: 275px;
+    height: 60px;
+    margin-top: 58px;
+}
+
+.container2 .btn2 a {
+
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 15px 90px;
+    border-radius: 30px;
+}
+
+.container3 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1210px;
+    margin: 0 auto;
+
+}
+
+.container3 .text2 {
+    max-width: 1165px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.container3 .perfect h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: #141311;
+    margin-top: 90px;
+}
+
+
+.container3 .text3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #4e4e4e;
+    margin-top: 30px;
+}
+
+.container3 .images {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
+
+.container3 .image-item1,
+.image-item2,
+.image-item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 370px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.image-item1 {
+    background-image: url(./image/Image01.png)
+}
+
+.image-item2 {
+    background-image: url(./image/Image02.png);
+}
+
+.image-item3 {
+    background-image: url(./image/Image03.png);
+}
+
+.container3 .text4 {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    height: 60px;
+}
+
+.container3 .textimage h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: left;
+    color: #5c5c5c;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.container3 .textimage span {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+
+}
+
+.container7 {
+    min-height: 1080px;
+    width: 100%;
+    background-color: #e8e9ea;
+    margin: 0 auto;
+    display: block;
+}
+
+.container7 .text7 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    padding-top: 140px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container7 .tableimage {
+    min-height: 600px;
+    max-width: 1210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+
+    margin-top: 70px;
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+
+}
+
+.container7 .block1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 600px;
+}
+
+.container7 .block2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    height: 600px;
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+
+}
+
+.container7 .block2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container7 .table1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./image/Image10.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .text1-1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+.container7 .texttable1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    max-width: 410px;
+    font-size: 30px;
+
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+
+    display: block;
+}
+
+.container7 .texttable1_2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    max-width: 410px;
+    font-size: 11px;
+    color: #cccccc;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.container7 .btntable {
+    padding-top: 20px;
+}
+
+.container7 .btntable a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    text-decoration: none;
+    color: #e1dac8;
+    background-color: #8d7431;
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.container7 .table2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.container7 .btntable2 a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    text-decoration: none;
+    color: #e1dac8;
+    background-color: #8d7431;
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.container7 .btn1-2 {
+    display: flex;
+}
+
+.container7 .btntable2 {
+    padding-top: 20px;
+}
+
+.container7 .btntable2_2 a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    text-decoration: none;
+    color: #e1dac8;
+    background-color: #8d7431;
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.container7 .btntable2_2 {
+    margin-left: 5px;
+    padding-top: 20px;
+
+}
+
+
+.container7 .image-box-bg {
+
+    height: 204px;
+    background-image: url(./image/Image11.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .text-imbg {
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+
+.container7 .text-imbg span {
+
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+}
+
+
+.container7 .table3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.container7 .image-box-bg3 {
+    height: 204px;
+    background-image: url(./image/Image12.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .table4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.container7 .image-box-bg4 {
+    height: 204px;
+    background-image: url(./image/Image13.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .table5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+
+}
+
+.container7 .image-box-bg5 {
+    height: 204px;
+    background-image: url(./image/Image14.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .btnknopka a {
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 25px 90px;
+    border-radius: 25px;
+}
+
+.container7 .btnknopka {
+    margin: 0 auto;
+    padding: 25px 90px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+@media (max-width: 1200px) {
+    .container7 .tableimage {
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    .container7 .text1-1 {
+        margin-top: 200px;
+    }
+
+    .container7 .texttable1 {
+        font-size: 25px;
+    }
+
+    .container7 .text-imbg {
+        margin-top: 10px;
+    }
+
+    .container7 .text-imbg span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container2 {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .container2 .text {
+        font-size: 40px;
+    }
+
+    .container2 .text span {
+        color: rgb(235, 196, 21);
+    }
+
+    .container2 .btn2 a {
+
+
+        font-size: 12px;
+        padding: 10px 30px;
+        border-radius: 15px;
+    }
+
+    .container7 .text-imbg {
+        margin-bottom: 1px;
+    }
+
+
+    .container7 .tableimage {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat
+    }
+
+    .container7 .text1-1 {
+        margin-top: 180px;
+    }
+
+    .container7 .block1 {
+        max-height: 450px;
+    }
+
+    .container7 .texttable1 {
+        font-size: 20px;
+    }
+
+    .container7 .block2 {
+        width: 100%;
+
+    }
+
+    .container7 .table2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container7 .table3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container7 .table4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container7 .table5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .container7 .tableimage {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container7 .image-box-bg4,
+    .image-box-bg5,
+    .image-box-bg {
+        display: flex;
+        justify-content: left;
+    }
+
+    .container7 .btntable {
+        display: flex;
+        justify-content: left;
+    }
+
+
+
+    .container2 .text span {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 630px) {
+    .container2 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container7 .block2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+    }
+
+    header .btn a {
+        font-size: 10px;
+
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    header .menu ul li a {
+        font-size: 10px;
+    }
+
+    header .menu ul {
+        width: 140px;
+    }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {
+    .container2 .container2 .start {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container3 .image-block {
+        max-width: 310px;
+    }
+
+
+    .container3 .textimage h3 {
+        font-size: 16px;
+    }
+
+    .container3 .textimage span {
+        font-size: 10px;
+        max-width: 280px;
+    }
+
+    .container3 .text-image {
+
+        max-width: 280px;
+    }
+
+    .container7 .text1-1 {
+        margin-top: 100px;
+
+    }
+
+    .container7 .btnknopka a {
+        margin: 0 auto;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #333333;
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+
+    .container7 .block1 {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .container2 .image-item1,
+    .image-item2,
+    .image-item3 {
+        background-size: contain;
+    }
+}

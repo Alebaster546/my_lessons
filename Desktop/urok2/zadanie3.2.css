@@ -1,0 +1,22 @@
+.block1 .block2{
+    position: relative;
+}
+.block1{
+    background-color: darkblue;
+    width: 55%;
+    height:  480px;
+}
+.block2{
+    background-color: tomato;
+    width: 55%;
+    height: 480px;
+    float: right;
+}
+.block3{
+    background-color: yellow;
+    width: 55%;
+    height: 460px;
+    margin-top: -200px;
+    margin-left: 480px;
+    position: absolute;
+}

@@ -1,0 +1,51 @@
+.svoystvaheader {
+    max-width: 99%;
+    height: 48vh;
+    margin: 0 auto;
+    background-color: red
+}
+
+.svoystvaheader:hover {
+    background-color: cyan;
+}
+
+.box {
+    height: 10%;
+    border: 1px solid black;
+}
+
+.image {
+    height: 80%;
+    margin-top: 5px;
+}
+
+img {
+    height: 100%;
+}
+
+.div {
+    width: 90%;
+    height: 400px;
+    background-color: blue;
+    border-color: white red;
+    border-style: solid;
+}
+
+.table {
+    margin-left: 15%;
+    background-color: rgb(252, 235, 5);
+}
+
+.cvet {
+    background-color: rgb(8, 20, 122);
+}
+
+.footer {
+    width: 100;
+    background-color: rgb(253, 237, 16, 0.5);
+    height: 80px;
+}
+
+.footer:hover {
+    background-color: rgb(253, 237, 16)
+}
